@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://c...content-available-to-author-only...r.net/npm/@mediapipe/camera_utils/camera_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://c...content-available-to-author-only...r.net/npm/@mediapipe/control_utils/control_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://c...content-available-to-author-only...r.net/npm/@mediapipe/drawing_utils/drawing_utils.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://c...content-available-to-author-only...r.net/npm/@mediapipe/hands/hands.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://c...content-available-to-author-only...e.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script
+      defer
+      language="javascript"
+      type="text/javascript"
+      src="detection.js"
+    ></script>
+    <script
+      defer
+      language="javascript"
+      type="text/javascript"
+      src="sketch.js"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+    <!-- <link rel="stylesheet" href="scss/main.css" /> -->
+  </head>
+ 
+  <body>
+    <form action="login.php" method="post">
+    <header class="header">
+      <a href="clickmode.html" class="heading-primary">Smart house</a>
+      <div class="header__nav">
+        <div class="header__icon">
+          <span class="material-icons">notifications_none</span>
+        </div>
+        <div class="header__icon">
+          <span class="material-icons">settings</span>
+        </div>
+        <div class="header__icon">
+            <button type="submit" id="btn__logout" class="material-icons" name="logout">power_settings_new</span>
+        </div>
+      </div>
+    </header>
+    <div class="box_flex">
+      <div class="videoBox">
+        <video id="video" width="640" height="480"></video>
+        <h2 class="videoBox__notify">Hello</h2>
+        <!-- <button class="videoBox__btn">Click</button> -->
+      </div>
+
+      <canvas
+        class="myCanvas"
+        width="400"
+        height="400"
+        style="border: 1px solid #000000"
+      ></canvas>
+    </div>
+    </form>
+  </body>
+</html>

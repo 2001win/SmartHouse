@@ -1,0 +1,20 @@
+.header{
+    height: fit-content;
+    position: relative;
+    padding: 1rem 10rem;
+    background-color: $color-white;
+    box-shadow: 0 1rem 1rem rgba($color-black, .4);
+    &__nav { 
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 5%;
+    }
+    &__icon{
+        display: inline-block;
+        cursor: pointer;
+        &:not(:last-child) { 
+            margin-right: 1rem;
+        }
+    }
+}
